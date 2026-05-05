@@ -1,0 +1,24 @@
+.container_about{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container_text{
+    width: 50%;
+    margin: 10px;
+}
+.title{
+    font-family: var(--font-serif);
+    color: var(--color-primary-gold);
+    font-size: 1.2em;
+
+}
+
+.about_text{
+
+}
+
+.img_casal{
+    width: 400px;
+}
