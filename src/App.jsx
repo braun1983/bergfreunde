@@ -22,10 +22,10 @@ function App() {
           <Nav />
           <Container customClass="min-height">
             <Routes>
-              <Route path="//" element={<HomePage />} />
-              <Route path="/#/historia" element={<Historia />} />
-              <Route path="/#/galeria" element={<Galeria />} />
-              <Route path="/#/contato" element={<Contato />} />
+              <Route path="/" element={<HomePage />} />
+              <Route path="/historia" element={<Historia />} />
+              <Route path="/galeria" element={<Galeria />} />
+              <Route path="/contato" element={<Contato />} />
             </Routes>
           </Container>
           <Footer />
