@@ -2,7 +2,7 @@ import './styles/variables.css'
 import './styles/global.css'
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 import HomePage from './pages/homepage/HomePage.jsx'
 import Historia from './pages/historia/Historia.jsx'
