@@ -13,27 +13,21 @@ import Nav from './components/layout/Navbar/Navbar'
 import Footer from './components/layout/footer/Footer.jsx'
 import Container from './components/layout/container/Container.jsx'
 function App() {
-
-
   return (
-    <>
-      <Router>
-        <div className='app_wrapper'>
-          <Nav />
-          <Container customClass="min-height">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/historia" element={<Historia />} />
-              <Route path="/galeria" element={<Galeria />} />
-              <Route path="/contato" element={<Contato />} />
-            </Routes>
-          </Container>
-          <Footer />
-        </div>
-      </Router>
-
-    </>
+    <Router>
+      <div className='app_wrapper'>
+        <Nav />
+        <Container customClass="min-height">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/historia" element={<Historia />} />
+            <Route path="/galeria" element={<Galeria />} />
+            <Route path="/contato" element={<Contato />} />
+          </Routes>
+        </Container>
+        <Footer />
+      </div>
+    </Router>
   )
 }
-
 export default App
