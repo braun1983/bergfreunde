@@ -1,16 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import brasao from '../../../assets/img/brasao.svg';
 
 function Navbar() {
+    
     const [menuOpen, setMenuOpen] = useState(false);
-
     const toggleMenu = () => setMenuOpen(prev => !prev);
     const closeMenu = () => setMenuOpen(false);
-
+    const [visivel, setVisivel] = useState(false)
+    useEffect(()=> {
+        function handleScroll(){
+            setVisivel(window.scrollY>50)
+        }
+        window.addEventListener('scroll', handleScroll)
+        return()=> window.removeEventListener('scroll', handleScroll)
+    }, [])
     return (
-        <header>
+        <header className={`header ${visivel ? 'header--visivel': ''}`}>
             <div className='header_inner'>
             <button
                 className={`hamburger ${menuOpen ? 'open' : ''}`}

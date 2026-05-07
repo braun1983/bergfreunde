@@ -1,13 +1,23 @@
-header {
+.header {
     background-color: var(--color-dark-blue);
     border-bottom: 2px solid var(--color-primary-gold);
     padding: 0.75rem 2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left:0;
+    width: 100%;
     z-index: 1000;
+    opacity: 0;
+    transform:  translateY(-100%);
+    transition: opacitiy 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
-
+.header--visivel{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+}
 .header_inner {
     display: flex;
     align-items: center;
