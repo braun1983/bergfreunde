@@ -1,8 +1,10 @@
 import casal from '../../../assets/img/img_hero_temp.jpg'
 import './Sobre.css'
 function Sobre() {
+
+    
     return (
-        <section className='container_about'>
+        <section className='container_about' id="sobre">
             <div className='container_text'>
                 <h3 className='title'>Sobre</h3>
 

@@ -1,7 +1,10 @@
 import brasao from '../../../assets/img/brasao.svg'
 import './Hero.css'
 
-export default function Hero() {
+ function Hero() {
+  function scrollTo(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <section className="hero" id="topo">
       <div className="hero__stripes">
@@ -27,8 +30,8 @@ export default function Hero() {
 
 
       <div className="hero__cta">
-        <a href="#sobre" className="btn btn--primary">Conheça o Grupo</a>
-        <a href="#apresentacoes" className="btn btn--outline">Próximas Apresentações</a>
+        <button onClick={()=> scrollTo('sobre')} className="btn btn--primary">Conheça o Grupo</button>
+        <button onClick={()=> scrollTo('apresentacoes')}className="btn btn--outline">Próximas Apresentações</button>
       </div>
 
       <div className="hero__scroll-hint">
@@ -39,3 +42,5 @@ export default function Hero() {
     </section>
   )
 }
+
+export default Hero

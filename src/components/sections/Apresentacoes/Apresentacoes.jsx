@@ -31,7 +31,7 @@ function Apresentacoes() {
     }
 
     return (
-        <section className='container_apresentacao'>
+        <section className='container_apresentacao' id="apresentacoes">
             <h3 className='apresentacao_title'>Próximas Apresentações</h3>
             <p className='apresentacao_chamada'>Junte-se a nós!</p>
             <div className='container_exibicaoCard'>
