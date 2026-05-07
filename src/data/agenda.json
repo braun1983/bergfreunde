@@ -3,18 +3,21 @@
     "evento": "Sommerfest 2024",
     "data": "20/10/2024",
     "horario": "19:00",
-    "local": "Praça Arthur Gerhardt"
+    "local": "Praça Arthur Gerhardt",
+    "info": "Festa da cultura alemã."
   },
   {
     "evento": "Festival do Vinho",
     "data": "05/11/2024",
     "horario": "18:00",
-    "local": "Parque de Exposições"
+    "local": "Parque de Exposições",
+    "info": ""
   },
   {
-    "evento": "Natal Germânico",
+    "evento": "Brilho de Natal",
     "data": "15/12/2024",
     "horario": "20:00",
-    "local": "Centro Cultural"
+    "local": "Centro Cultural",
+    "info": ""
   }
 ]

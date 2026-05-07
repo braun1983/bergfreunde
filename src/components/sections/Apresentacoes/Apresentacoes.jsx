@@ -33,13 +33,14 @@ function Apresentacoes() {
     return (
         <section className='container_apresentacao'>
             <h3 className='apresentacao_title'>Próximas Apresentações</h3>
-            <p>Junte-se a nós!</p>
+            <p className='apresentacao_chamada'>Junte-se a nós!</p>
             <div className='container_exibicaoCard'>
                 {proximaAgenda.map((agenda, index) => (
                     <CardApresentacao
                         key={index}
                         evento={agenda.evento}
                         data={agenda.data}
+                        info={agenda.info}
                         horario={agenda.horario}
                         local={agenda.local}
                     />
