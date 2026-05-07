@@ -9,8 +9,9 @@ function HomePage(){
         <Hero/>
         
         <Sobre/>
+         <RedesSociais/>
         <Apresentacoes/>
-        <RedesSociais/>
+       
         <Patrocinadores/>
         </>
     )
