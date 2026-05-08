@@ -32,6 +32,14 @@ function RedesSociais() {
           Chamar no WhatsApp
         </button>
       </div>
+      <a
+        href='https://youtube.com/@gfcampinho'
+        target='_blank'
+        rel='noopener noreferrer'
+        title='YouTube'
+      >
+        <i className='ti ti-brand-youtube'></i>
+      </a>
     </section>
   )
 }
