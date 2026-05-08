@@ -95,7 +95,7 @@ export default function Galeria() {
   return (
     <main className='galeria_page'>
       <section className='galeria_hero'>
-        <p className='galeria_eyebrow'>Unsere Fotos</p>
+        
         <h1 className='galeria_titulo'>Galeria</h1>
         <p className='galeria_subtitulo'>Momentos e memórias do Bergfreunde</p>
       </section>

@@ -1,65 +1,80 @@
-.galeria_page {
-  width: 100%;
-  min-height: 100vh;
-  padding: 4rem 2rem;
 
-  background: #f5f1e8;
+
+.galeria_page {
+  background-color: #f5f0e8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M20 0 L40 20 L20 40 L0 20 Z' fill='none' stroke='%23d9cdb8' stroke-width='0.8'/%3E%3C/svg%3E");
+  min-height: 100vh;
+  width: 100%;
 }
+
+/* HERO */
 
 .galeria_hero {
-  text-align: center;
-  margin-bottom: 4rem;
-}
+  background-color: var(--color-dark-blue);
 
-.galeria_eyebrow {
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  color: #8b6f47;
-  margin-bottom: 0.5rem;
+  padding: 5rem 2rem;
+
+  text-align: center;
+
+  border-bottom: 3px solid var(--color-primary-gold);
 }
 
 .galeria_titulo {
-  font-size: clamp(2.5rem, 6vw, 5rem);
-  color: #3f2f1d;
-  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+
+  font-size: clamp(2.5rem, 6vw, 4rem);
+
+  color: #fff;
+
+  margin-bottom: 0.7rem;
 }
 
 .galeria_subtitulo {
-  font-size: 1.1rem;
-  color: #5e5143;
+  font-family: var(--font-sans);
+
+  font-size: 1rem;
+
+  color: rgba(255, 255, 255, 0.72);
 }
 
+/* ÁLBUNS */
+
 .galeria_albums {
-  width: 100%;
-  max-width: 1200px;
-
-  margin: 0 auto;
-
   display: grid;
 
-  grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
+  grid-template-columns:
+    repeat(auto-fit, minmax(220px, 260px));
 
   justify-content: center;
 
-  gap: 2rem;
+  gap: 1.8rem;
+
+  padding: 3rem 2rem;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
 }
 
+/* ÁLBUM */
+
 .album {
-  position: relative;
+  width: 100%;
 }
 
 .album__capa {
   position: relative;
-  overflow: hidden;
 
-  border-radius: 24px;
+  aspect-ratio: 1 / 1;
+
+  border-radius: 6px;
+
+  overflow: hidden;
 
   cursor: pointer;
 
-  aspect-ratio: 4 / 3;
-
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.12);
 
   transition:
     transform 0.3s ease,
@@ -67,9 +82,10 @@
 }
 
 .album__capa:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
 
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.18);
+  box-shadow:
+    0 18px 35px rgba(0, 0, 0, 0.18);
 }
 
 .album__capa_img {
@@ -78,73 +94,71 @@
 
   object-fit: cover;
 
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
 }
 
 .album__capa:hover .album__capa_img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .album__capa_overlay {
   position: absolute;
   inset: 0;
 
+  background:
+    linear-gradient(
+      transparent 30%,
+      rgba(0, 0, 0, 0.78)
+    );
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
-  padding: 2rem;
-
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
-
-  color: white;
+  padding: 1.2rem;
 }
 
 .album__titulo {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
+  font-family: var(--font-serif);
+
+  font-size: 1.2rem;
+
+  color: #fff;
+
+  margin-bottom: 0.3rem;
 }
 
 .album__info {
-  font-size: 0.95rem;
-  opacity: 0.9;
-  margin-bottom: 1rem;
+  font-family: var(--font-sans);
+
+  font-size: 0.8rem;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  margin-bottom: 0.7rem;
 }
 
 .album__btn {
-  width: fit-content;
+  font-family: var(--font-sans);
 
-  padding: 0.7rem 1.2rem;
+  font-size: 0.75rem;
 
-  border-radius: 999px;
+  font-weight: 700;
 
-  background: rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.08em;
 
-  backdrop-filter: blur(8px);
+  text-transform: uppercase;
 
-  font-size: 0.95rem;
+  color: var(--color-primary-gold);
 }
 
-.galeria_vazia {
-  text-align: center;
-  color: #5e5143;
-}
-
-.galeria_vazia code {
-  background: #e8dcc8;
-  padding: 0.2rem 0.5rem;
-  border-radius: 6px;
-}
-
-/* =========================
-   MODAL
-========================= */
+/* MODAL */
 
 .modal {
   position: fixed;
   inset: 0;
 
-  background: rgba(0, 0, 0, 0.88);
+  background: rgba(0, 0, 0, 0.92);
 
   display: flex;
   align-items: center;
@@ -154,7 +168,7 @@
 
   z-index: 9999;
 
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(5px);
 
   animation: fadeIn 0.25s ease;
 }
@@ -164,28 +178,25 @@
 
   width: 100%;
   max-width: 1300px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .modal__fechar {
   position: absolute;
-  top: -55px;
+
+  top: -50px;
   right: 0;
 
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
 
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.1);
 
-  color: white;
+  color: #fff;
 
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 
   cursor: pointer;
 
@@ -195,13 +206,12 @@
 }
 
 .modal__fechar:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.2);
+
   transform: scale(1.05);
 }
 
-/* =========================
-   CARROSSEL
-========================= */
+/* CARROSSEL */
 
 .carrossel {
   width: 100%;
@@ -213,47 +223,55 @@
   width: 100%;
   height: 82vh;
 
+  border-radius: 6px;
+
+  overflow: hidden;
+
+  background: #111;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .carrossel__foto {
-  max-width: 100%;
-  max-height: 100%;
+  width: auto;
+  height: auto;
+
+  max-width: 95vw;
+  max-height: 82vh;
 
   object-fit: contain;
 
-  border-radius: 20px;
-
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  display: block;
 
   animation: zoomIn 0.25s ease;
 }
 
+/* BOTÕES */
+
 .carrossel__btn {
   position: absolute;
+
   top: 50%;
 
   transform: translateY(-50%);
 
-  width: 58px;
-  height: 58px;
+  width: 48px;
+  height: 48px;
 
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.45);
 
-  color: white;
+  color: #fff;
+
+  cursor: pointer;
 
   display: flex;
   align-items: center;
   justify-content: center;
-
-  cursor: pointer;
-
-  backdrop-filter: blur(8px);
 
   transition:
     background 0.2s ease,
@@ -261,69 +279,74 @@
 }
 
 .carrossel__btn:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(0, 0, 0, 0.8);
 
-  transform: translateY(-50%) scale(1.06);
-}
-
-.carrossel__btn svg {
-  width: 28px;
-  height: 28px;
+  transform:
+    translateY(-50%)
+    scale(1.05);
 }
 
 .carrossel__btn--anterior {
-  left: 1rem;
+  left: 14px;
 }
 
 .carrossel__btn--proximo {
-  right: 1rem;
+  right: 14px;
 }
+
+.carrossel__btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+/* CONTADOR */
 
 .carrossel__contador {
   position: absolute;
-  bottom: 1.5rem;
-  left: 50%;
 
-  transform: translateX(-50%);
+  bottom: 14px;
+  right: 14px;
 
-  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
 
-  border-radius: 999px;
+  font-size: 0.8rem;
+
+  color: rgba(255, 255, 255, 0.85);
 
   background: rgba(0, 0, 0, 0.45);
 
-  color: white;
+  padding: 0.3rem 0.7rem;
 
-  font-size: 0.95rem;
-
-  backdrop-filter: blur(6px);
+  border-radius: 999px;
 }
+
+/* DOTS */
 
 .carrossel__dots {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 0.7rem;
 
-  margin-top: 1.5rem;
+  gap: 7px;
+
+  margin-top: 1rem;
 
   flex-wrap: wrap;
 }
 
 .carrossel__dot {
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
 
   border: none;
   border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.4);
+  background: #d9cdb8;
 
   cursor: pointer;
 
   transition:
-    transform 0.2s ease,
-    background 0.2s ease;
+    background 0.2s ease,
+    transform 0.2s ease;
 }
 
 .carrossel__dot:hover {
@@ -331,13 +354,34 @@
 }
 
 .carrossel__dot--ativo {
-  background: white;
-  transform: scale(1.3);
+  background: var(--color-primary-gold);
+
+  transform: scale(1.2);
 }
 
-/* =========================
-   ANIMAÇÕES
-========================= */
+/* VAZIA */
+
+.galeria_vazia {
+  text-align: center;
+
+  padding: 6rem 2rem;
+
+  font-family: var(--font-sans);
+
+  color: #888;
+}
+
+.galeria_vazia code {
+  background: #f0ebe0;
+
+  padding: 0.2rem 0.4rem;
+
+  border-radius: 4px;
+
+  font-size: 0.85rem;
+}
+
+/* ANIMAÇÕES */
 
 @keyframes fadeIn {
   from {
@@ -352,7 +396,7 @@
 @keyframes zoomIn {
   from {
     opacity: 0;
-    transform: scale(0.96);
+    transform: scale(0.97);
   }
 
   to {
@@ -361,13 +405,22 @@
   }
 }
 
-/* =========================
-   RESPONSIVO
-========================= */
+/* MOBILE */
 
 @media (max-width: 768px) {
-  .galeria_page {
-    padding: 3rem 1rem;
+  .galeria_hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .galeria_titulo {
+    font-size: 2.2rem;
+  }
+
+  .galeria_albums {
+    grid-template-columns:
+      repeat(auto-fit, minmax(170px, 220px));
+
+    padding: 2rem 1rem;
   }
 
   .carrossel__janela {
@@ -375,17 +428,13 @@
   }
 
   .carrossel__btn {
-    width: 48px;
-    height: 48px;
+    width: 42px;
+    height: 42px;
   }
 
   .carrossel__btn svg {
-    width: 22px;
-    height: 22px;
-  }
-
-  .album__titulo {
-    font-size: 1.3rem;
+    width: 18px;
+    height: 18px;
   }
 
   .modal {
