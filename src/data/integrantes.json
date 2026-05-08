@@ -1,0 +1,28 @@
+[
+  {
+    "nome": "Karl Heinrich Braun",
+    "passagens": [
+      { "entrada": 1984, "saida": 1990 },
+      { "entrada": 1995, "saida": null }
+    ]
+  },
+  {
+    "nome": "Ingrid Müller",
+    "passagens": [
+      { "entrada": 1984, "saida": 1998 }
+    ]
+  },
+  {
+    "nome": "Ernst Hoffmann",
+    "passagens": [
+      { "entrada": 1984, "saida": 1992 },
+      { "entrada": 2000, "saida": 2005 }
+    ]
+  },
+   {
+    "nome": "Wilheln Dittberner",
+    "passagens": [
+      { "entrada": 2010, "saida": null }
+    ]
+  }
+]

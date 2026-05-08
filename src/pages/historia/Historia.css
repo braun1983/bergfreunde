@@ -373,6 +373,32 @@
   letter-spacing: 0.05em;
 }
 
+.integrante_passagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.integrante_passagem {
+  font-size: 0.8rem;
+  background: #f0ebe0;
+  color: var(--color-text-main);
+  padding: 0.15rem 0.5rem;
+  border-radius: 20px;
+}
+
+.integrante_passagem--ativa {
+  background-color: #d4af3720;
+  color: var(--color-primary-gold);
+  font-weight: 600;
+}
+
+.integrante_total {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
     .historia_titulo {
