@@ -21,7 +21,7 @@ function RedesSociais() {
             <i className='ti ti-brand-facebook'></i>
           </a>
            <a
-        href='@grupofolcloricobergfreunde2954'
+        href='https://www.youtube.com/@grupofolcloricobergfreunde2954'
         target='_blank'
         rel='noopener noreferrer'
         title='YouTube'
