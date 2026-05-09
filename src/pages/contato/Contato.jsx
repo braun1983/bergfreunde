@@ -23,7 +23,7 @@ const redes = [
   {
     nome: 'YouTube',
     usuario: '@gfcampinho',
-    link: 'https://youtube.com/@gfcampinho',
+    link: '@grupofolcloricobergfreunde2954',
     icone: 'ti-brand-youtube',
   },
 ]
