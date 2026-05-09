@@ -38,7 +38,19 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </footer>
+            <div className='container_dev'>
+                <p className='dev_name'>Desenvolvido por <span>Raphael Braun</span></p>
+
+<a                href='https://github.com/braun1983'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='dev_github'
+                title='GitHub - braun1983'
+  >
+                <i className='ti ti-brand-github'></i>
+            </a>
+        </div>
+        </footer >
     )
 }
 

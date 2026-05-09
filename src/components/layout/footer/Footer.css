@@ -79,6 +79,44 @@ footer {
     color: var(--color-primary-gold);
 }
 
+.container_dev {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.dev_name {
+  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  color: rgba(255,255,255,0.4);
+  font-style: italic;
+  word-spacing: 1.5px;
+}
+
+.dev_name span {
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.dev_github {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(255,255,255,0.4);
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.dev_github:hover {
+  color: var(--color-primary-gold);
+}
+
 @media (max-width: 768px) {
     footer {
         padding: 1.5rem 1rem;
