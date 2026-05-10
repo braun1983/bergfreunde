@@ -39,7 +39,7 @@ function Footer() {
                 </div>
             </div>
             <div className='container_dev'>
-                <p className='dev_name'>Desenvolvido por <span>Raphael Braun</span></p>
+                <p className='dev_name'>Desenvolvido por <span>Raphael Brun</span></p>
 
 <a                href='https://github.com/braun1983'
                 target='_blank'
