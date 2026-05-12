@@ -29,7 +29,7 @@ function Footer() {
                         <h4 className='caption'>Contato</h4>
                         <div className='address'>
                             <address>
-                                <p> Remetente: Associação Cultural e Recreativa Campinho - ACRC</p>
+                                <p> Associação Cultural e Recreativa Campinho - ACRC</p>
                                 <p>Avenida Presidente Vargas, Domingos Martins-ES</p>
                                 <p>Caixa Postal nº 9</p>
                             </address>
