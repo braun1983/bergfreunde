@@ -1,16 +1,90 @@
 [
   {
-    "nome": "Susana Kohler Brun",
+    "nome": "Charleny Nalesso Strey",
     "passagens": [
-      { "entrada": 1999, "saida": 2006 },
+      { "entrada": 2023, "saida": null }
+    ]
+  },
+  {
+    "nome": "Eloisa Leite",
+    "passagens": [
+      { "entrada": 2025, "saida": null }
+    ]
+  },
+  {
+    "nome": "Erlinea Degen de Carvalho",
+    "passagens": [
+      { "entrada": 2017, "saida": null }
+    ]
+  },
+  {
+    "nome": "Franklin Curbani da Silva",
+    "passagens": [
+      { "entrada": 2024, "saida": null }
+    ]
+  },
+  {
+    "nome": "Gabriela Mendes de Souza",
+    "passagens": [
+      { "entrada": 2024, "saida": null }
+    ]
+  },
+  {
+    "nome": "Jackson Tecsh",
+    "passagens": [
       { "entrada": 2018, "saida": null }
+    ]
+  },
+  {
+    "nome": "José Roberto Raasch",
+    "passagens": [
+      { "entrada": 2001, "saida": 2017 },
+      { "entrada": 2018, "saida": null }
+    ]
+  },
+  {
+    "nome": "Julio Strey",
+    "passagens": [
+      { "entrada": 1996, "saida": 1999 },
+      { "entrada": 2023, "saida": null }
+    ]
+  },
+  {
+    "nome": "Kellen Simone Mayer Nascimento",
+    "passagens": [
+      { "entrada": 1986, "saida": 1991 },
+      { "entrada": 2023, "saida": null }
+    ]
+  },
+  {
+    "nome": "Pedro Augusto Mayer Nascimento",
+    "passagens": [
+      { "entrada": 2025, "saida": null }
     ]
   },
   {
     "nome": "Raphael Brun",
     "passagens": [
       { "entrada": 2018, "saida": null }
-   
+    ]
+  },
+  {
+    "nome": "Rogério Geraldo de Carvalho",
+    "passagens": [
+      { "entrada": 2017, "saida": null }
+    ]
+  },
+  {
+    "nome": "Sirlene Littig",
+    "passagens": [
+      { "entrada": 2021, "saida": null }
+    ]
+  },
+  {
+    "nome": "Susana Kohler Brun",
+    "passagens": [
+      { "entrada": 1999, "saida": 2006 },
+      { "entrada": 2018, "saida": null }
     ]
   }
 ]
