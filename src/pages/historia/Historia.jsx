@@ -150,7 +150,7 @@ function Historia() {
                         Fez parte do Bergfreunde e não está na lista?
                     </p>
                     <a
-                        href='https://wa.me/552798126714?text=Ol%C3%A1!%20Gostaria%20de%20ser%20adicionado%20%C3%A0%20lista%20de%20integrantes%20do%20Bergfreunde.'
+                        href='https://wa.me/5527981226714?text=Ol%C3%A1!%20Gostaria%20de%20ser%20adicionado%20%C3%A0%20lista%20de%20integrantes%20do%20Bergfreunde.'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='integrantes_cta_btn'    >
