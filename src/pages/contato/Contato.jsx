@@ -49,7 +49,7 @@ export default function Contato() {
     )
 
     window.open(
-      `https://wa.me/5527988229533?text=${texto}`,
+      `https://wa.me/5527997899301?text=${texto}`,
       '_blank'
     )
   }
@@ -129,7 +129,7 @@ export default function Contato() {
             >
               <i className='ti ti-brand-whatsapp'></i>
 
-              (27) 98822-9533
+              (27) 99789-9301 (Jakson Tesch - Coordenação)
             </a>
           </div>
 

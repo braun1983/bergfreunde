@@ -34,7 +34,7 @@ function Footer() {
                                 <p>Caixa Postal nº 9</p>
                             </address>
                             <p className='text'>Email: gfbergfreunde@gmail.com</p>
-                            <p className='text'>Telefone: (27) XXXXX-XXXXX </p>
+                            <p className='text'>Telefone: (27) 99789-9301 -Jakson Tesch(Coordenação) </p>
                         Avenida Presidente Vargas S/N Caixa Postal 9
                         </div>
                     </div>
