@@ -31,7 +31,7 @@ function Footer() {
                             <address>
                                 <p> Associação Cultural e Recreativa Campinho - ACRC</p>
                                 <p>Avenida Presidente Vargas, Domingos Martins-ES</p>
-                                <p>Caixa Postal nº 9</p>
+                                <p>Caixa Postal nº 91</p>
                             </address>
                             <p className='text'>Email: gfbergfreunde@gmail.com</p>
                             <p className='text'>Telefone: (27) 99789-9301 -Jakson Tesch(Coordenação) </p>
