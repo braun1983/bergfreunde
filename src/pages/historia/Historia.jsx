@@ -110,22 +110,31 @@ function Historia() {
                 </div>
             </section>
 
-            {timeline.length > 0 && (
-                <section className='historia_fotos'>
-                    <h2 className='historia_section_titulo'>Memórias em Fotos</h2>
-                    <div className='fotos_timeline'>
-                        {timeline.map((grupo) => (
-                            <div key={grupo.chave} className='fotos_timeline__item'>
-                                <CarrosselTimeline
-                                    fotos={grupo.fotos}
-                                    titulo={grupo.titulo}
-                                    ano={grupo.ano}
-                                />
-                            </div>
-                        ))}
-                    </div>
-                </section>
-            )}
+      {timeline.length > 0 && (
+  <section className='historia_fotos'>
+    <h2 className='historia_section_titulo'>Memórias em Fotos</h2>
+    <div className='fotos_timeline_wrapper'>
+      <div className='fotos_timeline'>
+        {timeline.map((grupo) => (
+          <div key={grupo.chave} className='fotos_timeline__item'>
+            <div className='fotos_timeline__foto_wrapper'>
+              <CarrosselTimeline
+                fotos={grupo.fotos}
+                titulo=""
+                ano=""
+              />
+            </div>
+            <div className='fotos_timeline__ponto'></div>
+            <div className='fotos_timeline__ano_wrapper'>
+              <p className='fotos_timeline__ano'>{grupo.ano}</p>
+              <p className='fotos_timeline__titulo'>{grupo.titulo}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
 
             <section className='historia_fundadores'>
                 <h2 className='historia_section_titulo'>Idealizadores</h2>
