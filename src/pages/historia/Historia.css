@@ -469,4 +469,18 @@
         flex: 0 0 280px;
     }
  
+.integrantes_tabela {
+ 
+  font-size: 0.8rem;
+
+}
+
+.integrantes_tabela th {
+  padding: 0.55rem 0.70rem;
+  font-size: 0.70rem;
+  letter-spacing: 0.05em;
+
+ 
+}
+
 }

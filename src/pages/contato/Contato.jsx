@@ -107,12 +107,12 @@ export default function Contato() {
             </h2>
 
             <a
-              href='mailto:bergfreunde@gmail.com'
+              href='mailto:gfbergfreunde@gmail.com'
               className='contato_email'
             >
               <i className='ti ti-mail'></i>
 
-              bergfreunde@gmail.com
+              gfbergfreunde@gmail.com
             </a>
           </div>
 
