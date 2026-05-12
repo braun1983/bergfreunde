@@ -12,6 +12,12 @@
     ]
   },
   {
+    "nome": "Eduardo Gilles Rodrigues Leite",
+    "passagens": [
+      { "entrada": 2024, "saida": null }
+    ]
+  },
+  {
     "nome": "Eloisa Leite",
     "passagens": [
       { "entrada": 2025, "saida": null }
@@ -36,7 +42,7 @@
     ]
   },
   {
-    "nome": "Jackson Tecsh",
+    "nome": "Jackson Tesch",
     "passagens": [
       { "entrada": 2018, "saida": null }
     ]
