@@ -6,8 +6,8 @@ function Footer() {
 
             <div className='container_name'>
                 <p className='name'>
-                    ©2026 Bergfreunde Volkstanzgruppe -
-                    Grupo de Danças Folclóricas Gêrmanicas -
+                    ©2026 Grupo Folclórico Bergfreunde de Campinho - Volkstanzgruppe -
+                    
                     Domingos Martins-ES</p>
 
                 <p className='text'> <span>Immer Lustig</span></p>
