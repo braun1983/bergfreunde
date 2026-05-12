@@ -1,5 +1,11 @@
 [
   {
+    "nome": "Bertha Elizabeth Fischer Rupf",
+    "passagens": [
+      { "entrada": 2022, "saida": null }
+    ]
+  },
+  {
     "nome": "Charleny Nalesso Strey",
     "passagens": [
       { "entrada": 2023, "saida": null }
@@ -57,6 +63,18 @@
     ]
   },
   {
+    "nome": "Marli Mayer",
+    "passagens": [
+      { "entrada": 2017, "saida": null }
+    ]
+  },
+  {
+    "nome": "Natalia Herbest",
+    "passagens": [
+      { "entrada": 2004, "saida": null }
+    ]
+  },
+  {
     "nome": "Pedro Augusto Mayer Nascimento",
     "passagens": [
       { "entrada": 2025, "saida": null }
@@ -75,6 +93,18 @@
     ]
   },
   {
+    "nome": "Rogério Wruck",
+    "passagens": [
+      { "entrada": 1995, "saida": null }
+    ]
+  },
+  {
+    "nome": "Sandra de Fátima Schulz",
+    "passagens": [
+      { "entrada": 2017, "saida": null }
+    ]
+  },
+  {
     "nome": "Sirlene Littig",
     "passagens": [
       { "entrada": 2021, "saida": null }
@@ -85,6 +115,12 @@
     "passagens": [
       { "entrada": 1999, "saida": 2006 },
       { "entrada": 2018, "saida": null }
+    ]
+  },
+  {
+    "nome": "Walciderio Braum",
+    "passagens": [
+      { "entrada": 2022, "saida": null }
     ]
   }
 ]
