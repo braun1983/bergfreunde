@@ -3,7 +3,7 @@ import './RedesSociais.css'
 function RedesSociais() {
 
   function abrirWhatsapp() {
-    window.open('https://wa.me/5527999999999', '_blank');
+    window.open('https://wa.me/5527997899301', '_blank');
   }
 
   return (

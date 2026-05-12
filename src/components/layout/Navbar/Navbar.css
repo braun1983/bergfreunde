@@ -26,10 +26,15 @@
     max-width: 1100px;
     margin: 0 auto;
 }
-
+.logo_link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 .container_logo {
     display: flex;
     align-items: center;
+    
 }
 
 .container_brasao img {

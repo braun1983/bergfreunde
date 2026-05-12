@@ -31,12 +31,14 @@ function Navbar() {
 
             
             <div className='container_logo'>
+              <NavLink to='/' className='logo_link'>
                 <div className='container_brasao'>
                     <img src={brasao} alt="Brasão Bergfreunde" />
                 </div>
                 <div className='container_titulo'>
                     <h1 className='titulo'>Bergfreunde</h1>
                 </div>
+               </NavLink>
             </div>
 
             
