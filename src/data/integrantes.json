@@ -49,6 +49,14 @@
     ]
   },
   {
+"nome": "Geovan Maria Thomes Waiandt Raasch",
+    "passagens": [
+      { "entrada": 1999, "saida": 2017 },
+      { "entrada": 2017, "saida": null }
+    ]
+  },
+
+  {
     "nome": "Jakson Tesch",
     "passagens": [
       { "entrada": 2018, "saida": null }
@@ -91,6 +99,13 @@
     "nome": "Pedro Augusto Mayer Nascimento",
     "passagens": [
       { "entrada": 2025, "saida": null }
+    ]
+  },
+  {
+  "nome": "Nínive Degen de Carvalho",
+    "passagens": [
+      { "entrada": 2017, "saida": 2020 },
+      { "entrada": 2023, "saida": null }
     ]
   },
   {
