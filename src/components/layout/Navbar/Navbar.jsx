@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import brasao from '../../../assets/img/brasao.svg';
 
@@ -8,14 +8,26 @@ function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => setMenuOpen(prev => !prev);
     const closeMenu = () => setMenuOpen(false);
-    const [visivel, setVisivel] = useState(false)
+    const [visivel, setVisivel] = useState(false);
+    const location = useLocation();
+    
+    const isHomePage = location.pathname ==='/'
+    
     useEffect(()=> {
+        if(!isHomePage){
+            setVisivel(true);
+            return
+        }
+
+        setVisivel(false)
         function handleScroll(){
             setVisivel(window.scrollY>50)
         }
         window.addEventListener('scroll', handleScroll)
         return()=> window.removeEventListener('scroll', handleScroll)
-    }, [])
+    }, [isHomePage])
+    
+    
     return (
         <header className={`header ${visivel ? 'header--visivel': ''}`}>
             <div className='header_inner'>

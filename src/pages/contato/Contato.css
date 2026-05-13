@@ -146,18 +146,19 @@
   align-items: center;
   gap: 0.5rem;
   font-family: var(--font-sans);
-  font-size: 0.95rem;
+
   font-weight: 500;
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
-
 .contato_email {
   color: var(--color-dark-blue);
+    font-size: 0.95rem;
 }
 
 .contato_whatsapp {
   color: #25d366;
+    font-size: 0.75rem;
 }
 
 .contato_email:hover,

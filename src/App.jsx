@@ -4,6 +4,8 @@ import './styles/global.css'
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
+import ScrollToTop from './components/ui/ScrollToTop.jsx'
+
 import HomePage from './pages/homepage/HomePage.jsx'
 import Historia from './pages/historia/Historia.jsx'
 import Galeria from './pages/galeria/Galeria.jsx'
@@ -12,9 +14,12 @@ import Contato from './pages/contato/Contato.jsx'
 import Nav from './components/layout/Navbar/Navbar'
 import Footer from './components/layout/footer/Footer.jsx'
 import Container from './components/layout/container/Container.jsx'
+
+
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <div className='app_wrapper'>
         <Nav />
         <Container customClass="min-height">
