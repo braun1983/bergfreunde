@@ -1,5 +1,17 @@
 [
   {
+    "nome": "Armin Braun",
+    "passagens": [
+      { "entrada": 1990, "saida": 1999 }
+    ]
+  },
+  {
+    "nome": "Beatriz Miertschink",
+    "passagens": [
+      { "entrada": 1984, "saida": 1985 }
+    ]
+  },
+  {
     "nome": "Bertha Elizabeth Fischer Rupf",
     "passagens": [
       { "entrada": 2022, "saida": null }
@@ -81,6 +93,12 @@
     "passagens": [
       { "entrada": 1986, "saida": 1991 },
       { "entrada": 2023, "saida": null }
+    ]
+  },
+  {
+    "nome": "Marcos Miertschink",
+    "passagens": [
+      { "entrada": 1984, "saida": 1985 }
     ]
   },
   {
