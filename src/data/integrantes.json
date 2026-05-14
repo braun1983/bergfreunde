@@ -48,6 +48,7 @@
       { "entrada": 2017, "saida": null }
     ]
   },
+
   {
     "nome": "Franklin Curbani da Silva",
     "passagens": [
@@ -107,6 +108,12 @@
       { "entrada": 2017, "saida": null }
     ]
   },
+    {
+    "nome": "Marli Rupf Reis",
+    "passagens": [
+      { "entrada": 1984, "saida": 1986 }
+    ]
+  },
   {
     "nome": "Natalia Herbest",
     "passagens": [
@@ -142,6 +149,12 @@
     "nome": "Rogério Wruck",
     "passagens": [
       { "entrada": 1995, "saida": null }
+    ]
+  },
+    {
+    "nome": "Ronaldo Reis",
+    "passagens": [
+      { "entrada": 1984, "saida": 1986 }
     ]
   },
   {
