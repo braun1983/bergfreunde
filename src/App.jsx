@@ -3,7 +3,7 @@ import './styles/global.css'
 
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import ScrollToTop from './components/ui/ScrollToTop.jsx'
 
 import HomePage from './pages/homepage/HomePage.jsx'
@@ -32,6 +32,7 @@ function App() {
         </Container>
         <Footer />
       </div>
+      <SpeedInsights />
     </Router>
   )
 }
