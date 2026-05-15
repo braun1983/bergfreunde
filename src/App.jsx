@@ -3,7 +3,7 @@ import './styles/global.css'
 
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import ScrollToTop from './components/ui/ScrollToTop.jsx'
 
 import HomePage from './pages/homepage/HomePage.jsx'
