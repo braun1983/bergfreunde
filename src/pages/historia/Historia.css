@@ -197,7 +197,7 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     cursor: grab;
-    padding: 1rem 1rem -1rem 2rem;
+    
 }
 
 .fotos_timeline_wrapper::-webkit-scrollbar {
