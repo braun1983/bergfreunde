@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+
 import './Navbar.css';
+
 import brasao from '../../../assets/img/brasao.svg';
 
 function Navbar() {

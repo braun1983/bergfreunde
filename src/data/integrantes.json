@@ -1,5 +1,17 @@
 [
   {
+    "nome": "Armin Braun",
+    "passagens": [
+      { "entrada": 1990, "saida": 1999 }
+    ]
+  },
+  {
+    "nome": "Beatriz Miertschink",
+    "passagens": [
+      { "entrada": 1984, "saida": 1985 }
+    ]
+  },
+  {
     "nome": "Bertha Elizabeth Fischer Rupf",
     "passagens": [
       { "entrada": 2022, "saida": null }
@@ -36,6 +48,7 @@
       { "entrada": 2017, "saida": null }
     ]
   },
+
   {
     "nome": "Franklin Curbani da Silva",
     "passagens": [
@@ -84,9 +97,21 @@
     ]
   },
   {
+    "nome": "Marcos Miertschink",
+    "passagens": [
+      { "entrada": 1984, "saida": 1985 }
+    ]
+  },
+  {
     "nome": "Marli Mayer",
     "passagens": [
       { "entrada": 2017, "saida": null }
+    ]
+  },
+    {
+    "nome": "Marli Rupf Reis",
+    "passagens": [
+      { "entrada": 1984, "saida": 1986 }
     ]
   },
   {
@@ -124,6 +149,12 @@
     "nome": "Rogério Wruck",
     "passagens": [
       { "entrada": 1995, "saida": null }
+    ]
+  },
+    {
+    "nome": "Ronaldo Reis",
+    "passagens": [
+      { "entrada": 1984, "saida": 1986 }
     ]
   },
   {

@@ -1,8 +1,30 @@
 [
-  { "nome": "Joel Guilherme Velten", "papel": "Idealizador/Fundador" },
-  { "nome": "Hilda Braun", "papel": "Apoiador/Fundador" },
-  { "nome": "Moacir vargas", "papel": "Apoiador/Fundador" },
-  { "nome": "Beno Heumann", "papel": "Apoiador/Danças" },
-  { "nome": "'Frau' Heumann", "papel": "Apoiador/Danças" }
-  
+  {
+    "nome": "Joel Guilherme Velten",
+    "papel": "Idealizador/Fundador"
+  },
+  {
+    "nome": "Hilda Braun",
+    "papel": "Apoiador/Fundador"
+  },
+  {
+    "nome": "Roberto Kaustky",
+    "papel": "Apoiador/Fundador"
+  },
+  {
+    "nome": "Pastor Rubinho",
+    "papel": "Apoiador/Fundador"
+  },
+  {
+    "nome": "Moacir vargas",
+    "papel": "Apoiador/Fundador"
+  },
+  {
+    "nome": "Beno Heumann",
+    "papel": "Apoiador/Danças"
+  },
+  {
+    "nome": "'Frau' Heumann",
+    "papel": "Apoiador/Danças"
+  }
 ]
