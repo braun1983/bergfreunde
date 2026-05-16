@@ -1,4 +1,4 @@
-import brasao from '../../../assets/img/brasao.svg'
+import brasao from '../../../../assets/img/brasao.svg'
 import './Hero.css'
 
  function Hero() {

@@ -3,7 +3,7 @@ const todasFotos = import.meta.glob(
   { eager: true }
 )
 
-console.log(todasFotos)
+
 
 export const albums = Object.entries(todasFotos)
   .reduce((acc, [path, mod]) => {

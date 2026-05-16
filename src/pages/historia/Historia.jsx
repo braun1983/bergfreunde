@@ -3,12 +3,13 @@ import './Historia.css'
 import { timeline } from '../../data/timeline'
 
 import marcosData from '../../data/marcos.json'
-import idealizadoresData from '../../data/idealizadores.json'
-import integrantesData from '../../data/integrantes.json'
+
+import Fundadores from '../../components/sections/Historia/Fundadores/Fundadores.jsx'
+import Integrantes from '../../components/sections/Historia/integrantes/Integrantes.jsx'
 
 const marcos = marcosData
-const fundadores = idealizadoresData
-const integrantes = integrantesData
+
+
 
 function CarrosselTimeline({ fotos, titulo, ano }) {
     const [atual, setAtual] = useState(0)
@@ -136,79 +137,8 @@ function Historia() {
   </section>
 )}
 
-            <section className='historia_fundadores'>
-                <h2 className='historia_section_titulo'>Idealizadores</h2>
-                <div className='fundadores_grid'>
-                    {fundadores.map((f, index) => (
-                        <div key={index} className='fundador_card'>
-                            <img
-                                src={`https://placehold.co/200x200/c8a96e/fff?text=${f.nome.split(' ')[0]}`}
-                                alt={f.nome}
-                                className='fundador_foto'
-                            />
-                            <h4 className='fundador_nome'>{f.nome}</h4>
-                            <p className='fundador_papel'>{f.papel}</p>
-                        </div>
-                    ))}
-                </div>
-            </section>
-            <section className='historia_integrantes'>
-                <h2 className='historia_section_titulo'>Nossos Integrantes</h2>
-                <div className='integrantes_cta'>
-                    <p className='integrantes_cta_texto'>
-                        Fez parte do Bergfreunde e não está na lista?
-                    </p>
-                    <a
-                        href='https://wa.me/5527981226714?text=Ol%C3%A1!%20Gostaria%20de%20ser%20adicionado%20%C3%A0%20lista%20de%20integrantes%20do%20Bergfreunde.'
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='integrantes_cta_btn'    >
-                        <i className='ti ti-brand-whatsapp'></i>
-                        Envie seu nome para nós
-                    </a>
-                </div>
-                <div className='integrantes_tabela_wrapper'>
-                    <table className='integrantes_tabela'>
-                        <thead>
-                            <tr>
-                                <th>Nome</th>
-                                <th>Passagens</th>
-                                <th>Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {integrantes.map((integrante, index) => {
-                                const anoAtual = new Date().getFullYear()
-                                const ativo = integrante.passagens.some((p) => p.saida === null)
-                                const totalAnos = integrante.passagens.reduce((acc, p) => {
-                                    return acc + ((p.saida ?? anoAtual) - p.entrada)
-                                }, 0)
-
-                                return (
-                                    <tr key={index} className={ativo ? 'integrante--ativo' : ''}>
-                                        <td>{integrante.nome}</td>
-                                        <td>
-                                            <div className='integrante_passagens'>
-                                                {integrante.passagens.map((p, i) => (
-                                                    <span key={i} className={`integrante_passagem ${p.saida === null ? 'integrante_passagem--ativa' : ''}`}>
-                                                        {p.entrada} – {p.saida ?? 'atual'}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div className='integrante_total'>
-                                                <span>{totalAnos} {totalAnos === 1 ? 'ano' : 'anos'}</span>
-                                                {ativo && <span className='integrante_ativo_badge'>Ativo</span>}
-                                            </div>
-                                        </td>
-                                    </tr>
-                                )
-                            })}
-                        </tbody>
-                    </table>
-                </div>
-            </section>
+          <Fundadores/>
+           <Integrantes/>
         </main>
     )
 }

@@ -1,0 +1,43 @@
+/* FUNDADORES */
+.historia_fundadores {
+    padding: 4rem 2rem;
+    background-color: var(--color-background-soft);
+    border-top: 1px solid #e0d8c8;
+}
+
+.fundadores_grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.fundador_card {
+    text-align: center;
+    width: 180px;
+}
+
+.fundador_foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-primary-gold);
+    margin-bottom: 1rem;
+}
+
+.fundador_nome {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: var(--color-dark-blue);
+    margin: 0 0 0.3rem;
+}
+
+.fundador_papel {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    color: #888;
+}
+

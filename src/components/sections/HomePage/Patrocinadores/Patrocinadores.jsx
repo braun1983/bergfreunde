@@ -1,10 +1,10 @@
 import './Patrocinadores.css'
-import hemo from '../../../assets/img/patrocinadores/hemo.png'
-import rotary from '../../../assets/img/patrocinadores/rotary.png'
-import blackTucano from '../../../assets/img/patrocinadores/blacktucanocoffe.png'
-import tata from '../../../assets/img/patrocinadores/tata.png'
-import tiaTerezinhaSitio from '../../../assets/img/patrocinadores/tiaterezinhasitio.jpeg'
-import tiaTerezinhaPapelaria from '../../../assets/img/patrocinadores/tiaterezinhapapelaria.jpeg'
+import hemo from '../../../../assets/img/patrocinadores/hemo.png'
+import rotary from '../../../../assets/img/patrocinadores/rotary.png'
+import blackTucano from '../../../../assets/img/patrocinadores/blacktucanocoffe.png'
+import tata from '../../../../assets/img/patrocinadores/tata.png'
+import tiaTerezinhaSitio from '../../../../assets/img/patrocinadores/tiaterezinhasitio.jpeg'
+import tiaTerezinhaPapelaria from '../../../../assets/img/patrocinadores/tiaterezinhapapelaria.jpeg'
 
 const patrocinadores = [
     { nome: 'Hemo Laboratorio', logo: hemo },

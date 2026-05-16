@@ -1,4 +1,4 @@
-import casal from '../../../assets/img/imgSobre.png'
+import casal from '../../../../assets/img/imgSobre.png'
 import './Sobre.css'
 function Sobre() {
 

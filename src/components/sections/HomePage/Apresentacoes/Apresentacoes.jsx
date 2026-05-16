@@ -1,6 +1,6 @@
 import './Apresentacoes.css'
 
-import agenda from '../../../data/agenda.json';
+import agenda from '../../../../data/agenda.json';
 import { useState } from 'react';
 import CardApresentacao from './CardApresentacao.jsx';
 
