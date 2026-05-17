@@ -41,8 +41,9 @@ Site oficial do **Bergfreunde**, grupo folclóricp germânicas da comunidade de 
 - Facebook: [gfcampinho](https://facebook.com/gfcampinho)
 - TikTok: [@gfcampinho](https://tiktok.com/@gfcampinho)
 - YouTube: [@gfcampinho](https://youtube.com/@gfcampinho)
-- WhatsApp: [(27) 98822-9533](https://wa.me/5527988229533)
+- WhatsApp: [(27) 99789-9301](https://wa.me/5527997899301) - (Jakson Tesch - Coordenação)
 - Email: gfbergfreunde@gmail.com
+
 
 ---
 
