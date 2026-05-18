@@ -1,9 +1,58 @@
 [
   {
+    "ano": "1979",
+    "titulo": "O Despertar da Ideia",
+    "texto": "Após morar em Salt Lake City (EUA), Joel Velten retorna a Domingos Martins impactado pela valorização da genealogia e do folclore que observou no exterior. Percebendo que a identidade cultural em Campinho estava esquecida devido às perseguições da Segunda Guerra Mundial e ao isolamento, Joel decide que o folclore seria a ferramenta ideal para atrair os jovens e resgatar essa história.",
+    "imagem": "https://placehold.co/600x400/c8a96e/fff?text=1979"
+  },
+  {
+    "ano": "1980 – 1983",
+    "titulo": "Planejamento e Pesquisa",
+    "texto": "Joel Velten, com o apoio fundamental de Roberto Kautsky, passa a percorrer o interior aos finais de semana para conversar com moradores antigos e levantar dados genealógicos e históricos. O projeto ganha o suporte do prefeito Moacir Vargas. Em 17 de dezembro de 1983, é inaugurada a Casa da Cultura, que serviu como base para o acervo histórico e ponto de apoio para o movimento cultural.",
+    "imagem": "https://placehold.co/600x400/2c3e50/fff?text=1980-1983"
+  },
+  {
     "ano": "1984",
-    "titulo": "A Fundação",
-    "texto": "Em 25 de fevereiro de 1988. Em breve mais sobre nossa história",
-    "imagem": "https://placehold.co/600x400/c8a96e/fff?text=Fundacao+1984"
-  }
+    "titulo": "O Nascimento e a Estreia",
+    "texto": "Em janeiro de 1984, chegam o professor Beno Heumann e sua esposa Eredy, vindos de Nova Petrópolis (RS), para ministrar um curso intensivo de danças folclóricas. Em 25 de fevereiro de 1984, o grupo estreia oficialmente no primeiro Baile do Chucrute, realizado na Escola CNEC, então conhecido como Grupo de Danças Alemãs de Campinho — o primeiro grupo folclórico alemão do Espírito Santo.",
+    "imagem": "https://placehold.co/600x400/3d5a3e/fff?text=1984"
+  },
+  {
+    "ano": "1986 – 1988",
+    "titulo": "Consolidação e Expansão",
+    "texto": "Em 1986, é criada a primeira Sommerfest em comemoração aos 120 anos da colonização alemã, evento que surgiu como desdobramento do sucesso do grupo folclórico. Em 30 de outubro de 1988, é fundada a Associação Cultural e Recreativa Campinho (ACRC) para dar representação jurídica ao grupo. Integrantes passam a ensinar danças em outros municípios, como Santa Maria de Jetibá e Vila Pavão.",
+    "imagem": "https://placehold.co/600x400/3d5a3e/fff?text=1986-1988"
+  },
+  {
+    "ano": "1992 – 1993",
+    "titulo": "Identidade e Crescimento",
+    "texto": "Em 1992, é adotado oficialmente o nome Bergfreunde — Amigos da Montanha —, simbolizando a conexão com a região serrana. Em 1993, são criadas as categorias Infantil e Infanto-Juvenil, expandindo o grupo para 78 integrantes e garantindo a transmissão da cultura para as novas gerações.",
+    "imagem": "https://placehold.co/600x400/1a365d/fff?text=1992-1993"
+  },
+ 
 
+  {
+    "ano": "2000 – 2004",
+    "titulo": "Reconhecimento e Novos Grupos",
+    "texto": "No ano 2000, o grupo realiza uma viagem histórica à Alemanha, desfilando na avenida principal de Munique durante a Oktoberfest e sendo confundido com um grupo local pela qualidade técnica e dos trajes. Em 2004, é fundado o grupo Master, integrando os mais velhos ao movimento de resgate cultural.",
+    "imagem": "https://placehold.co/600x400/8b6914/fff?text=2000-2004"
+  },
+  {
+    "ano": "2017",
+    "titulo": "Superação e Legado",
+    "texto": "Em 10 de setembro de 2017, o grupo enfrenta seu momento mais difícil com um trágico acidente na BR-101 que vitimou nove integrantes. Em um movimento de união e homenagem aos que partiram, ex-integrantes e familiares se unem para manter o Bergfreunde vivo, reafirmando o grupo como uma grande família.",
+    "imagem": "https://placehold.co/600x400/2c2c2c/fff?text=2017"
+  },
+  {
+    "ano": "2024",
+    "titulo": "40 Anos de História",
+    "texto": "Jubileu de Rubi: o Bergfreunde celebra quatro décadas de existência, mantendo um vasto repertório de mais de 200 coreografias e consolidando Domingos Martins como referência nacional em cultura germânica.",
+    "imagem": "https://placehold.co/600x400/c8a96e/fff?text=2024"
+  },
+  {
+    "ano": "2026",
+    "titulo": "O Legado Continua Pulsando",
+    "texto": "Após celebrar seu Jubileu de Rubi em 2024, o Bergfreunde entra em 2026 consolidado como uma das instituições culturais mais resilientes do Espírito Santo. O grupo permanece em plena atividade com ensaios regulares e muitas danças em seu repertório. A 'família Bergfreunde' segue se renovando, com novos integrantes, alguns filhos de antigos ex-integrantes ocupando seus lugares na dança, garantindo e a manutenção da cultura. Com o apoio da ACRC, o grupo mantém seu papel de protagonista no turismo e na cultura de Domingos Martins — provando que, como afirma seu idealizador Joel Velten, preservar as raízes é a única forma de garantir o futuro.",
+    "imagem": "https://placehold.co/600x400/c8a96e/fff?text=2026"
+}
 ]

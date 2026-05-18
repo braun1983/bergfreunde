@@ -29,7 +29,6 @@
       { "entrada": 2025, "saida": null }
     ]
   },
-  
   {
     "nome": "Eduardo Gilles Rodrigues Leite",
     "passagens": [
@@ -48,7 +47,6 @@
       { "entrada": 2017, "saida": null }
     ]
   },
-
   {
     "nome": "Franklin Curbani da Silva",
     "passagens": [
@@ -62,13 +60,12 @@
     ]
   },
   {
-"nome": "Geovan Maria Thomes Waiandt Raasch",
+    "nome": "Geovan Maria Thomes Waiandt Raasch",
     "passagens": [
       { "entrada": 1999, "saida": 2017 },
       { "entrada": 2017, "saida": null }
     ]
   },
-
   {
     "nome": "Jakson Tesch",
     "passagens": [
@@ -97,9 +94,21 @@
     ]
   },
   {
+    "nome": "Marcelo Gonoring Hehr",
+    "passagens": [
+      { "entrada": 2018, "saida": 2023 }
+    ]
+  },
+  {
     "nome": "Marcos Miertschink",
     "passagens": [
       { "entrada": 1984, "saida": 1985 }
+    ]
+  },
+  {
+    "nome": "Mariene Gonoring",
+    "passagens": [
+      { "entrada": 1991, "saida": 2000 }
     ]
   },
   {
@@ -108,7 +117,7 @@
       { "entrada": 2017, "saida": null }
     ]
   },
-    {
+  {
     "nome": "Marli Rupf Reis",
     "passagens": [
       { "entrada": 1984, "saida": 1986 }
@@ -121,16 +130,16 @@
     ]
   },
   {
-    "nome": "Pedro Augusto Mayer Nascimento",
-    "passagens": [
-      { "entrada": 2025, "saida": null }
-    ]
-  },
-  {
-  "nome": "Nínive Degen de Carvalho",
+    "nome": "Nínive Degen de Carvalho",
     "passagens": [
       { "entrada": 2017, "saida": 2020 },
       { "entrada": 2023, "saida": null }
+    ]
+  },
+  {
+    "nome": "Pedro Augusto Mayer Nascimento",
+    "passagens": [
+      { "entrada": 2025, "saida": null }
     ]
   },
   {
@@ -151,10 +160,16 @@
       { "entrada": 1995, "saida": null }
     ]
   },
-    {
+  {
     "nome": "Ronaldo Reis",
     "passagens": [
       { "entrada": 1984, "saida": 1986 }
+    ]
+  },
+  {
+    "nome": "Roseli Gonoring Hehr",
+    "passagens": [
+      { "entrada": 1989, "saida": 1994 }
     ]
   },
   {
@@ -174,6 +189,18 @@
     "passagens": [
       { "entrada": 1999, "saida": 2006 },
       { "entrada": 2018, "saida": null }
+    ]
+  },
+  {
+    "nome": "Sylvia R. Rangel de Jesus",
+    "passagens": [
+      { "entrada": 1989, "saida": 1996 }
+    ]
+  },
+  {
+    "nome": "Vanderleia Braga Marques",
+    "passagens": [
+      { "entrada": 1990, "saida": 1998 }
     ]
   },
   {
