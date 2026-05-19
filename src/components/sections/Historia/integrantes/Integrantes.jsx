@@ -1,5 +1,6 @@
 import './Integrantes.css'
 import integrantesData from '../../../../data/integrantes.json'
+import MsgWhatts from '../../../ui/MsgWhatts'
 
 const integrantes = integrantesData
 
@@ -7,20 +8,10 @@ function Integrantes() {
     return (
         <section className='historia_integrantes'>
             <h2 className='historia_section_titulo'>Nossos Integrantes</h2>
-            <div className='integrantes_cta'>
-                <p className='integrantes_cta_texto'>
-                    Fez parte do Bergfreunde e não está na lista?
-                </p>
-                <a
-                    href='https://wa.me/5527981226714?text=Ol%C3%A1!%20Gostaria%20de%20ser%20adicionado%20%C3%A0%20lista%20de%20integrantes%20do%20Bergfreunde.'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='integrantes_cta_btn'
-                >
-                    <i className='ti ti-brand-whatsapp'></i>
-                    Envie seu nome para nós
-                </a>
-            </div>
+        <MsgWhatts 
+            textNotice="Fez parte do grupo e seu nome não está na lista?"
+            textButton="Enviar seu nome para nós."
+            />
             <div className='integrantes_tabela_wrapper'>
                 <table className='integrantes_tabela'>
                     <thead>

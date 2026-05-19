@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './Historia.css'
 import { timeline } from '../../data/timeline'
 
+import MsgWhatts from '../../components/ui/MsgWhatts.jsx'
 import marcosData from '../../data/marcos.json'
 
 import Fundadores from '../../components/sections/Historia/Fundadores/Fundadores.jsx'
@@ -92,6 +93,12 @@ function Historia() {
                         quatro décadas, o grupo formou centenas de dançarinos e levou a cultura
                         germânica a palcos de todo o Brasil.
                     </p>
+                    <MsgWhatts
+                        textNotice="Estamos em um processo de registro da nossa história.
+                                    Se desejar contribuir com fotos, informações ou datas, entre em contato."
+                        textButton="Envie uma mensagem para nós"
+                    />
+                    
                 </div>
             </section>
 
@@ -111,34 +118,34 @@ function Historia() {
                 </div>
             </section>
 
-      {timeline.length > 0 && (
-  <section className='historia_fotos'>
-    <h2 className='historia_section_titulo'>Memórias em Fotos</h2>
-    <div className='fotos_timeline_wrapper'>
-      <div className='fotos_timeline'>
-        {timeline.map((grupo) => (
-          <div key={grupo.chave} className='fotos_timeline__item'>
-            <div className='fotos_timeline__foto_wrapper'>
-              <CarrosselTimeline
-                fotos={grupo.fotos}
-                titulo=""
-                ano=""
-              />
-            </div>
-            <div className='fotos_timeline__ponto'></div>
-            <div className='fotos_timeline__ano_wrapper'>
-              <p className='fotos_timeline__ano'>{grupo.ano}</p>
-              <p className='fotos_timeline__titulo'>{grupo.titulo}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-)}
+            {timeline.length > 0 && (
+                <section className='historia_fotos'>
+                    <h2 className='historia_section_titulo'>Memórias em Fotos</h2>
+                    <div className='fotos_timeline_wrapper'>
+                        <div className='fotos_timeline'>
+                            {timeline.map((grupo) => (
+                                <div key={grupo.chave} className='fotos_timeline__item'>
+                                    <div className='fotos_timeline__foto_wrapper'>
+                                        <CarrosselTimeline
+                                            fotos={grupo.fotos}
+                                            titulo=""
+                                            ano=""
+                                        />
+                                    </div>
+                                    <div className='fotos_timeline__ponto'></div>
+                                    <div className='fotos_timeline__ano_wrapper'>
+                                        <p className='fotos_timeline__ano'>{grupo.ano}</p>
+                                        <p className='fotos_timeline__titulo'>{grupo.titulo}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
 
-          <Fundadores/>
-           <Integrantes/>
+            <Fundadores />
+            <Integrantes />
         </main>
     )
 }
