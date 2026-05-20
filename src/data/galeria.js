@@ -16,8 +16,8 @@ export const albums = Object.entries(todasFotos)
       .split('-')
       .map(
         (palavra) =>
-          palavra.charAt(0).toUpperCase() +
-          palavra.slice(1).toLowerCase()
+          palavra.charAt(0).toUpperCase() + 
+        palavra.slice(1)
       )
       .join(' ')
 
