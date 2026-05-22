@@ -1,0 +1,68 @@
+.privacidade_page {
+  background-color: #f5f0e8;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M20 0 L40 20 L20 40 L0 20 Z' fill='none' stroke='%23d9cdb8' stroke-width='0.8'/%3E%3C/svg%3E");
+  min-height: 100vh;
+  width: 100%;
+}
+
+.privacidade_hero {
+  background-color: var(--color-dark-blue);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 3px solid var(--color-primary-gold);
+}
+
+.privacidade_titulo {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 0 0.5rem;
+}
+
+.privacidade_subtitulo {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.5);
+}
+
+.privacidade_conteudo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.privacidade_secao {
+  margin-bottom: 2.5rem;
+}
+
+.privacidade_secao h2 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-dark-blue);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--color-primary-gold);
+  display: inline-block;
+}
+
+.privacidade_secao p,
+.privacidade_secao li {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.privacidade_secao ul {
+  padding-left: 1.5rem;
+}
+
+.privacidade_secao a {
+  color: var(--color-primary-gold);
+  text-decoration: none;
+}
+
+.privacidade_secao a:hover {
+  text-decoration: underline;
+}

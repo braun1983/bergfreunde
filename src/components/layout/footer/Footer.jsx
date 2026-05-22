@@ -22,6 +22,7 @@ function Footer() {
                             <li><NavLink to="/historia" end >História</NavLink></li>
                             <li><NavLink to='/galeria' end >Galeria</NavLink></li>
                             <li><NavLink to='/contato' end >Contato</NavLink></li>
+                           <li> <NavLink to='/privacidade'>Política de Privacidade</NavLink></li>
                         </ul>
                     </div>
 
