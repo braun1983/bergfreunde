@@ -17,7 +17,7 @@ export default function Privacidade() {
             CNPJ 31.816.036/0001-71, com sede em Campinho, Domingos Martins — ES,
             responsável pelo Grupo Folclórico Bergfreunde.
           </p>
-          <p>Contato: <a href='mailto:bergfreunde@gmail.com'>bergfreunde@gmail.com</a></p>
+          <p>Contato: <a href='mailto:gfbergfreunde@gmail.com'>gfbergfreunde@gmail.com</a></p>
         </section>
 
         <section className={style.privacidade_secao}>

@@ -122,7 +122,7 @@ export default function Contato() {
             </h2>
 
             <a
-              href='https://wa.me/5527988229533'
+              href='https://wa.me/5527997899301'
               target='_blank'
               rel='noopener noreferrer'
               className='contato_whatsapp'
