@@ -24,7 +24,7 @@ function App() {
   return (
 
     <Router>
-      <ScrollToTop/>
+      <ScrollToTop />
       <div className='app_wrapper'>
         <Nav />
         <Container customClass="min-height">
@@ -38,9 +38,9 @@ function App() {
         </Container>
         <Footer />
       </div>
-      <Analytics/>
+      <Analytics />
       <SpeedInsights />
-          <CookieBanner />
+      <CookieBanner />
     </Router>
   )
 }
