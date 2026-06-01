@@ -11,6 +11,8 @@
   --color-text-main: #2d3748;
   --color-text-soft: #f8f9fa;      
   
+  color-scheme: dark; 
+
   /* Tipografia */
   /* Serifada para Títulos*/
   --font-serif: 'Newsreader', 'Georgia', serif;

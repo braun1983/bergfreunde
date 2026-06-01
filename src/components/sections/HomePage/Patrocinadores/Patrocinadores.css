@@ -1,3 +1,5 @@
+/* Patrocinadores.css */
+
 .container_patrocinadores {
     width: 100%;
     padding: 3rem 1rem;
@@ -12,6 +14,7 @@
     letter-spacing: 0.2em;
     color: #999;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .patrocinadores_grid {
@@ -22,14 +25,26 @@
     gap: 3rem;
 }
 
+.patrocinador_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;   
+    height: 80px; 
+    flex-shrink: 0;
+}
 
 .patrocinador_item {
-    height: 120px;
+    max-width: 100%;
+    max-height: 100%;
     width: auto;
+    height: auto;
     object-fit: contain;
     filter: grayscale(100%);
     opacity: 0.6;
     transition: filter 0.3s ease, opacity 0.3s ease;
+   
+    -webkit-transform: translateZ(0);
 }
 
 .patrocinador_item:hover {
@@ -39,10 +54,22 @@
 
 @media (max-width: 768px) {
     .patrocinadores_grid {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
-    .patrocinador_item {
-        height: 45px;
+    .patrocinador_wrapper {
+        width: 100px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 400px) {
+    .patrocinadores_grid {
+        gap: 1rem;
+    }
+
+    .patrocinador_wrapper {
+        width: 80px;
+        height: 44px;
     }
 }
