@@ -53,6 +53,7 @@
     font-family: var(--font-serif);
     letter-spacing: 2px;
     margin: 0.4rem 0;
+    color: var(--color-dark-blue)
 }
 
 .card_horario, .card_info, .card_icon_horario {

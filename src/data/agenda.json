@@ -12,7 +12,22 @@
     "horario": "15:00",
     "local": "Barra do Jucu, Vila Velha",
     "info": " "
+  },
+  {
+    "evento": "Feira de Negoçios, Agroturismo e Experiências Memoráveis",
+    "data": "21/06/2026",
+    "horario": "14:00",
+    "local": "Campo do Caxias - Conceitação do Castelo/ES",
+    "info": " "
+  },
+   {
+    "evento": "XXXI Festival Internacinal de Inverno de Música",
+    "data": "10/07/2026",
+    "horario": "22:30",
+    "local": "Domingos Martins/ES",
+    "info": " "
   }
+  
   
 ]
 
