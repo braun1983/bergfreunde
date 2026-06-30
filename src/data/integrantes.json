@@ -63,7 +63,7 @@
     "nome": "Geovan Maria Thomes Waiandt Raasch",
     "passagens": [
       { "entrada": 1999, "saida": 2017 },
-      { "entrada": 2017, "saida": null }
+      { "entrada": 2017, "saida": 2026 }
     ]
   },
    {
@@ -82,7 +82,7 @@
     "nome": "José Roberto Raasch",
     "passagens": [
       { "entrada": 2001, "saida": 2017 },
-      { "entrada": 2018, "saida": null }
+      { "entrada": 2018, "saida": 2026 }
     ]
   },
   {
