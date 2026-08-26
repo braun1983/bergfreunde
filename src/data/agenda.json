@@ -35,7 +35,15 @@
     "local": "Viana/ES",
     "info": "Duas apresentações: às 19h e às 23h "
   }
-   
+   ,
+   {
+    "evento": "Feira do Livro Gramado",
+    "data": "04/09/2026",
+    "horario": "19:00",
+    "local": "Praça Major Nicoletti - Gramado/RS",
+    "info": " "
+  }
+  
   
     
 ]
