@@ -42,8 +42,14 @@
     "horario": "19:00",
     "local": "Praça Major Nicoletti - Gramado/RS",
     "info": " "
+  },
+  {
+    "evento": "Brilho de Natal",
+    "data": "20/12/2026",
+    "horario": "20:30",
+    "local": "Praça Dr. Arthur Gerhardt - Domingos Martins/ES",
+    "info": " "
   }
-  
   
     
 ]
